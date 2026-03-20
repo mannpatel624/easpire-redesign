@@ -7,8 +7,8 @@ import { useNavigate } from "react-router"
 import { motion } from "framer-motion";
 import { ArrowRight, BarChart3, CheckCircle2, Code2, Users2, TrendingUp } from "lucide-react";
 import { LogosCarousel } from "@/components/LogosCarousel";
-import JobsKampuslogo from "../../public/JobsKampuslogo.png";
-import JobsKampusicon from "../../public/JobsKampusIcon.png";
+import CampusJobslogo from "../../public/CampusJobslogo.png";
+import CampusJobsicon from "../../public/CampusJobsIcon.png";
 import { useLocation } from "react-router"
 import { useEffect } from "react";
 
@@ -314,7 +314,7 @@ export default function Landing() {
                 <div className="inline-block px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-bold mb-6">
                   Featured Product
                 </div>
-                <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">JobsKampus</h2>
+                <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">CampusJobs</h2>
                 <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                   A digital platform that connects fresh graduates with corporate India. It provides a unique and customized process for corporates to connect with the best talent from all over India.
                 </p>
@@ -332,9 +332,9 @@ export default function Landing() {
                     <span className="font-medium">Advanced filtering by skills & location</span>
                   </li>
                 </ul>
-                <a href="https://jobskampus.ai" target="_blank" rel="noopener noreferrer">
+                <a href="https://CampusJobs.ai" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="rounded-full px-8 shadow-lg shadow-primary/20">
-                    Visit JobsKampus.ai
+                    Visit CampusJobs.ai
                   </Button>
                 </a>
               </motion.div>
@@ -348,16 +348,16 @@ export default function Landing() {
                 <div className="relative z-10 bg-gradient-to-br from-primary to-blue-600 p-1 rounded-[2rem] shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
                   <div className="bg-background p-8 rounded-[1.8rem] max-w-sm w-full text-center h-[400px] flex flex-col justify-center">
                     <div className="w-12 mx-auto mb-6 flex items-center justify-center">
-                      <img src={JobsKampusicon} alt="" />
+                      <img src={CampusJobsicon} alt="" />
                     </div>
-                    <img src={JobsKampuslogo} alt="" width={170} style={{ alignSelf: "center", margin: "0 30px" }} />
+                    <img src={CampusJobslogo} alt="" width={170} style={{ alignSelf: "center", margin: "0 30px" }} />
                     <p className="text-muted-foreground text-sm mb-8">AI-Powered Talent Platform</p>
                     <div className="space-y-3">
                       <div className="h-2 bg-muted rounded-full w-3/4 mx-auto"></div>
                       <div className="h-2 bg-muted rounded-full w-1/2 mx-auto"></div>
                     </div>
                     <div className="mt-auto">
-                      <a href="https://jobskampus.ai" target="_blank" rel="noopener noreferrer">
+                      <a href="https://CampusJobs.ai" target="_blank" rel="noopener noreferrer">
                         <Button variant="outline" className="w-full rounded-xl">View Demo</Button>
                       </a>
                     </div>

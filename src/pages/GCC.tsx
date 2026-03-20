@@ -85,7 +85,7 @@ export default function C2C() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">(GCC) in India</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-              Build High-Impact Global Teams with Easpire Technolabs. We partner with organizations to design, build, and scale GCCs in India, providing expertise across talent acquisition and offshore setup.
+              Build High-Impact Global Teams with Easpire Technolabs. We partner with organizations to design, build, and scale GCCs in India, providing expertise across talent acquisition, advanced technology capability, and offshore setup.
             </p>
             <Button
               onClick={() =>
@@ -323,9 +323,15 @@ export default function C2C() {
               <div className="p-8 rounded-3xl bg-slate-50 border border-slate-100">
                 <h3 className="text-2xl font-bold mb-4 text-slate-900">Build Your GCC Today</h3>
                 <p className="text-slate-600 mb-8">Unlock the full potential of India’s global talent ecosystem with Easpire Technolabs.</p>
-                <button className="w-full bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/20">
-                  Get Started
-                </button>
+                <Button
+                  onClick={() =>
+                    navigate("/contact", {
+                      state: { scrollTo: "contactinfo" },
+                    })
+                  }
+                  size="lg" className="text-lg px-8 h-14 rounded-full shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all">
+                  Get Started <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
               </div>
             </div>
           </div>

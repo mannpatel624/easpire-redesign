@@ -105,9 +105,9 @@ export default function Services() {
               },
               {
                 title: "Product",
-                desc: "JobsKampus - Connecting Talent & Opportunity",
+                desc: "CampusJobs - Connecting Talent & Opportunity",
                 icon: Rocket,
-                link: "/JobsKampus"
+                link: "/CampusJobs"
               }
             ].map((item, index) => (
               <motion.div

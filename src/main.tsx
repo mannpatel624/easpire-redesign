@@ -31,7 +31,7 @@ const BusinessPlatforms = lazy(() => import("./pages/BusinessPlatforms.tsx"));
 const Outsourcing = lazy(() => import("./pages/Outsourcing.tsx"));
 const CreativeDigitalServices = lazy(() => import("./pages/CreativeDigitalServices.tsx"));
 const ITStaffAugmentation = lazy(() => import("./pages/ITStaffAugmentation.tsx"));
-const JobsKampus = lazy(() => import("./pages/JobsKampus.tsx"));
+const CampusJobs = lazy(() => import("./pages/CampusJobs.tsx"));
 const SuccessStories = lazy(() => import("./pages/SuccessStories.tsx"));
 const Services = lazy(() => import("./pages/Services.tsx"));
 const Certificate = lazy(() => import("./pages/Certificate.tsx"));
@@ -51,7 +51,6 @@ function RouteLoading() {
 }
 
 const convex = new ConvexReactClient(import.meta.env.VITE_CONVEX_URL as string);
-
 
 
 function RouteSyncer() {
@@ -113,7 +112,7 @@ createRoot(document.getElementById("root")!).render(
               <Route path="/outsourcing" element={<Outsourcing />} />
               <Route path="/creative-digital-services" element={<CreativeDigitalServices />} />
               <Route path="/it-staff-augmentation" element={<ITStaffAugmentation />} />
-              <Route path="/JobsKampus" element={<JobsKampus />} />
+              <Route path="/CampusJobs" element={<CampusJobs />} />
               <Route path="/success-stories" element={<SuccessStories />} />
               <Route path="/auth" element={<AuthPage redirectAfterAuth="/" />} /> {/* TODO: change redirect after auth to correct page */}
               <Route path="*" element={<NotFound />} />

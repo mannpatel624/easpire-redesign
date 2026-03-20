@@ -8,7 +8,7 @@ export function Footer() {
   const footerLinks = [
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
-    { name: "Product", path: "/JobsKampus" },
+    { name: "Product", path: "/CampusJobs" },
     { name: "Industries", path: "/", scrollTo: "industries" },
     { name: "Certificate", path: "/certificate" },
     { name: "Why Choose Us", path: "/why-choose-us" },
@@ -179,6 +179,12 @@ export function Footer() {
                       <span className="text-xs font-bold text-slate-500 w-8">MYS</span>
                       <p className="text-xs text-slate-400 leading-relaxed">
                         Level 23A, NAZA Towers, 10, Persiaran KLCC, 50088, Kuala Lumpur
+                      </p>
+                    </div>
+                    <div className="flex gap-2">
+                      <span className="text-xs font-bold text-slate-500 w-8">SGP</span>
+                      <p className="text-xs text-slate-400 leading-relaxed">
+                        7 Temasek Boulevard, Singapore
                       </p>
                     </div>
                   </div>

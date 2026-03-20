@@ -3,7 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import Jobskampuspage from "../../public/jobskampuspage.png";
+import CampusJobspage from "../../public/CampusJobspage.jpg";
 import {
   ArrowRight,
   Bot,
@@ -23,7 +23,7 @@ const fadeIn = {
   transition: { duration: 0.5 }
 };
 
-export default function JobsKampus() {
+export default function CampusJobs() {
   return (
     <div className="min-h-screen bg-background flex flex-col font-sans selection:bg-primary/20 selection:text-primary">
       <Navbar />
@@ -41,7 +41,7 @@ export default function JobsKampus() {
               Featured Product
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground mb-6">
-              JobsKampus <br />
+              CampusJobs <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">Connecting Talent & Opportunity</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -49,12 +49,12 @@ export default function JobsKampus() {
               Streamline your hiring with AI-based assessments, advanced filtering, and a massive talent pool.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://jobskampus.ai/corporateLanding" target="_blank" rel="noopener noreferrer">
+              <a href="https://CampusJobs.ai/corporateLanding" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="text-lg px-8 h-14 rounded-full shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all">
                 For Corporates <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               </a>
-              <a href="https://jobskampus.ai/candidateLanding" target="_blank" rel="noopener noreferrer">
+              <a href="https://CampusJobs.ai/candidateLanding" target="_blank" rel="noopener noreferrer">
               <Button 
               size="lg" variant="outline" className="text-lg px-8 h-14 rounded-full">
                 For Candidates
@@ -78,8 +78,8 @@ export default function JobsKampus() {
             >
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl border border-border/50 bg-muted p-4">
                 <img
-                  src={Jobskampuspage}
-                  alt="JobsKampus Platform"
+                  src={CampusJobspage}
+                  alt="CampusJobs Platform"
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
@@ -88,7 +88,7 @@ export default function JobsKampus() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Bridging the Gap</h2>
               <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  JobsKampus provides a unique and customized process for corporates to connect with the best talent from all over India.
+                  CampusJobs provides a unique and customized process for corporates to connect with the best talent from all over India.
                 </p>
                 <p>
                   For corporates, it offers access to a vast pool of college talent with filters for location, skills, and project experience. The platform is equipped with an ATS, AI-based assessments, and interview processes to facilitate seamless hiring.
@@ -106,7 +106,7 @@ export default function JobsKampus() {
       <section className="py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...fadeIn} className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose JobsKampus?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose CampusJobs?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               A simple, effective, and affordable way to connect the best talent with the best companies.
             </p>
@@ -189,10 +189,10 @@ export default function JobsKampus() {
               Ready to Transform Your Hiring?
             </h2>
             <p className="text-xl text-foreground/70 mb-10 max-w-2xl mx-auto">
-              Join thousands of corporates and graduates on JobsKampus today.
+              Join thousands of corporates and graduates on CampusJobs today.
             </p>
             <a
-              href="https://jobskampus.ai/"
+              href="https://CampusJobs.ai/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -200,7 +200,7 @@ export default function JobsKampus() {
                 size="lg"
                 className="text-lg px-10 h-14 rounded-full shadow-lg hover:shadow-xl transition-all"
               >
-                Visit JobsKampus.ai
+                Visit CampusJobs.ai
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </a>
