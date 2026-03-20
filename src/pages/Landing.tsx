@@ -7,8 +7,6 @@ import { useNavigate } from "react-router"
 import { motion } from "framer-motion";
 import { ArrowRight, BarChart3, CheckCircle2, Code2, Users2, TrendingUp } from "lucide-react";
 import { LogosCarousel } from "@/components/LogosCarousel";
-import CampusJobslogo from "../../public/CampusJobslogo.png";
-import CampusJobsicon from "../../public/CampusJobsIcon.png";
 import { useLocation } from "react-router"
 import { useEffect } from "react";
 
@@ -348,9 +346,9 @@ export default function Landing() {
                 <div className="relative z-10 bg-gradient-to-br from-primary to-blue-600 p-1 rounded-[2rem] shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
                   <div className="bg-background p-8 rounded-[1.8rem] max-w-sm w-full text-center h-[400px] flex flex-col justify-center">
                     <div className="w-12 mx-auto mb-6 flex items-center justify-center">
-                      <img src={CampusJobsicon} alt="" />
+                      <img src="/CampusJobsicon.png" alt="" />
                     </div>
-                    <img src="/CampusJobsIcon.png"  alt="" width={170} style={{ alignSelf: "center", margin: "0 30px" }} />
+                    <img src="/CampusJobslogo.png"  alt="" width={170} style={{ alignSelf: "center", margin: "0 30px" }} />
                     <p className="text-muted-foreground text-sm mb-8">AI-Powered Talent Platform</p>
                     <div className="space-y-3">
                       <div className="h-2 bg-muted rounded-full w-3/4 mx-auto"></div>
