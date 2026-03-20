@@ -350,7 +350,7 @@ export default function Landing() {
                     <div className="w-12 mx-auto mb-6 flex items-center justify-center">
                       <img src={CampusJobsicon} alt="" />
                     </div>
-                    <img src={CampusJobslogo} alt="" width={170} style={{ alignSelf: "center", margin: "0 30px" }} />
+                    <img src="/CampusJobsIcon.png"  alt="" width={170} style={{ alignSelf: "center", margin: "0 30px" }} />
                     <p className="text-muted-foreground text-sm mb-8">AI-Powered Talent Platform</p>
                     <div className="space-y-3">
                       <div className="h-2 bg-muted rounded-full w-3/4 mx-auto"></div>
