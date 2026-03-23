@@ -105,7 +105,7 @@ export default function RPO() {
               "Maintain continuous improvement by promoting a learning environment and training on state-of-the-art technologies.",
               "Understand In-depth clients' business requirements.",
               "Guarantees high quality of our deliverables.",
-              "Seeking Continuous Improvement.",
+              "Seeking continuous improvement.",
               "Adopting International & best practice standards."
             ].map((strength, index) => (
               <motion.div
@@ -115,12 +115,35 @@ export default function RPO() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
               >
-                <Card className="h-full border-border/50 hover:border-primary/50 hover:shadow-md transition-all">
-                  <CardContent className="pt-6 flex gap-4">
+                {/* <Card className="h-full border-border/50 hover:border-primary/50 hover:shadow-md transition-all">
+                  <CardContent className="flex gap-4">
                     <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold">
                       {index + 1}
                     </div>
                     <p className="text-muted-foreground">{strength}</p>
+                  </CardContent>
+                </Card> */}
+                <Card className="h-full border border-border/50 
+  transition-all duration-300 ease-in-out 
+  hover:bg-primary hover:text-white 
+  hover:scale-105 hover:shadow-xl 
+  cursor-pointer group"
+                >
+                  <CardContent className="flex gap-4 items-start">
+
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full 
+      bg-primary/10 text-primary 
+      flex items-center justify-center font-bold
+      transition-all duration-300
+      group-hover:bg-white/20 group-hover:text-white"
+                    >
+                      {index + 1}
+                    </div>
+
+                    <p className="text-muted-foreground transition-all duration-300 group-hover:text-white">
+                      {strength}
+                    </p>
+
                   </CardContent>
                 </Card>
               </motion.div>
